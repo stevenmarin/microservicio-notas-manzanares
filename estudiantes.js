@@ -194,6 +194,13 @@ const estudiantes = [
         notaFinal: 4.0,
         alert: "success",
         message: "Muy Bien"
+    },
+    {
+        identificacion: "1060040569",
+        nombre: "Pepito Perez",
+        notaFinal: 2.8,
+        alert: "danger",
+        message: "Muy Mal"
     }
 
 ];
