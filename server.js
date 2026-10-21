@@ -1,6 +1,10 @@
 const express = require("express");
 const cors = require("cors");
 const estudiantes = require("./estudiantes");
+console.log(
+    "VERIFICACIÓN:",
+    estudiantes.find(e => e.identificacion === "1057784984")
+);
 
 const app = express();
 const PORT = process.env.PORT || 3000;
