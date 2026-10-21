@@ -1,0 +1,15 @@
+{
+  "name": "microservicio-notas",
+  "version": "1.0.0",
+  "description": "Microservicio para consultar notas finales de estudiantes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
