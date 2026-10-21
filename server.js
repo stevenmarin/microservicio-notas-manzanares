@@ -1,9 +1,14 @@
 const express = require("express");
+const cors = require("cors");
 const estudiantes = require("./estudiantes");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Permitir solicitudes desde tu aplicación local
+app.use(cors({
+    origin: "http://127.0.0.1:5500"
+}));
 app.get("/api/estudiantes/:identificacion", (req, res) => {
 
     const identificacion = req.params.identificacion;
