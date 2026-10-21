@@ -6,6 +6,7 @@ console.log(
     estudiantes.find(e => e.identificacion === "1057784984")
 );
 
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -29,7 +30,9 @@ app.get("/api/estudiantes/:identificacion", (req, res) => {
 
     res.json({
         nombre: estudiante.nombre,
-        notaFinal: estudiante.notaFinal
+        notaFinal: estudiante.notaFinal,
+        alert: estudiante.alert,
+        message: estudiante.message
     });
 });
 
