@@ -196,7 +196,7 @@ const estudiantes = [
         message: "Muy Bien"
     },
     {
-        identificacion: "1060040569",
+        identificacion: "123456",
         nombre: "Pepito Perez",
         notaFinal: 2.8,
         alert: "danger",
