@@ -10,8 +10,8 @@ const estudiantes = [
         identificacion: "1033107118",
         nombre: "CAMILA  IBARGUEN RINCON",
         notaFinal: 4.0,
-        alert: "warning",
-        message: "Aceptable"
+         alert: "success",
+        message: "Muy Bien"
     },
     {
         identificacion: "1094055236",
@@ -24,8 +24,8 @@ const estudiantes = [
         identificacion: "1057785370",
         nombre: "DUVIER  GIL JARAMILLO",
         notaFinal: 4.5,
-        alert: "warning",
-        message: "Aceptable"
+         alert: "success",
+        message: "Muy Bien"
     },
     {
         identificacion: "1055890614",
@@ -73,8 +73,8 @@ const estudiantes = [
         identificacion: "1073690815",
         nombre: "JOJHAN STIVEN LONDOÑO CASTILLO",
         notaFinal: 4.5,
-        alert: "warning",
-        message: "Aceptable"
+         alert: "success",
+        message: "Muy Bien"
     },
     {
         identificacion: "1057785060",
